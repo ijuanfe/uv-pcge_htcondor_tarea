@@ -14,6 +14,10 @@ En este repositorio se expone la implementación de la tarea del ejemplo plantea
     https://docs.google.com/presentation/d/1_D_Q6aC9fJk1QEOeaOfEPR51IPQw-fd1VEmcZyL0mnE/edit#slide=id.p4
     
 ## Ejecución:
+Descargar el archivo 'R.tar.gz' de este enlace y añadirlo al directorio de los archivos descargados de este mismo repositorio: 
+        
+    https://drive.google.com/file/d/1gv9hnrQCN0K517RzRWXFdcgL0tzqh9h7/view
+        
 Ejecutar las siguientes líneas de código para hacer el levantamiento del container con HTCondor y acceder al bash del mismo:
 
     docker run -d --rm --mount type=bind,source=/ruta/descarga/archivos/HTCondorTarea,target=/home/submitter -w /home/submitter -h htcondor --name htcondor andypohl/htcondor
